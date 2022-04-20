@@ -1,0 +1,1418 @@
+* {
+  box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.shadow {
+  backdrop-filter: blur(100px);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #ffffff;
+  overflow-x: scroll;
+  height: 5730px;
+}
+
+@media (min-width: 300px) {
+  body {
+    position: relative;
+    width: 375px;
+    height: 5730px;
+
+    background: #ffffff;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    position: relative;
+    width: 375px;
+    height: 5730px;
+
+    background: #ffffff;
+  }
+}
+
+.navbar {
+  margin-top: 0px;
+  position: relative;
+  height: 106px;
+  margin-left: -13px;
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    position: absolute;
+    width: 325px;
+    height: 50px;
+    left: 25.03px;
+    top: 20px;
+  }
+}
+
+.navbar-brand {
+  float: left;
+  position: relative;
+  margin-top: 31px;
+  margin-left: 66px;
+}
+
+.navbar-nav ul,
+li {
+  padding-left: 24px;
+  padding-right: 15px;
+}
+
+.navbar-nav {
+  margin-left: 5rem;
+}
+
+.mt-4 {
+  margin-top: 2.5rem !important;
+}
+
+.form-button {
+  position: relative;
+  margin-left: 8.5rem;
+  transition: 0.5s;
+  border: 0;
+  width: 274px;
+  height: 50px;
+  background: #5360fe;
+  border-radius: 25px;
+}
+
+.form-button h1 {
+  position: relative;
+  margin-top: 13px;
+  margin-left: 64px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  transition: 0.5s;
+  /* Лиловый (текст на кнопках) */
+
+  color: #eef7fe;
+}
+
+.offcanvas-header {
+  background-color: blueviolet;
+}
+.offcanvas-body {
+  background-color: aqua;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-decoration: none;
+  /* Основной текст */
+  color: #7d8797;
+}
+
+.nav-link:hover {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: -11px;
+  /* identical to box height */
+  color: #292930;
+  transition: all 1ms;
+}
+
+.navbar-toggler {
+  position: relative;
+  margin-right: 17px;
+  margin-top: -3px;
+}
+
+#overlay {
+  z-index: 37;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.dropdown-menu {
+  position: relative;
+  margin-left: -8rem;
+  margin-top: 6rem;
+}
+
+.dropdown-menu[data-bs-popper] {
+  margin-top: 8rem;
+}
+
+.dropdown-toggle:hover {
+  color: #5360fe;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn {
+  border: none;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.btn-secondary:hover {
+  color: #ffff;
+  background-color: #ffff;
+}
+
+.btn-secondary:focus {
+  color: #ffffff;
+  background-color: #ffff;
+}
+
+.dropdown-menu li a {
+  width: 87px;
+  height: 26px;
+
+  /* Main */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Заголовки меньше */
+
+  color: #04035f;
+}
+
+.form-button:hover {
+  background-color: #04d7cd;
+}
+
+.form-button h1:hover {
+  color: #04035f;
+}
+
+.dropdown-toggle h1 {
+  width: 50px;
+  height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Фиолетовый основной */
+
+  color: #5360fe;
+}
+
+.cost-button {
+  position: relative;
+  margin-top: 24px;
+  margin-left: 16px;
+  width: 293.75px;
+  height: 70px;
+
+  /* Фиолетовый основной */
+  transition: 0.5s;
+  background: #5360fe;
+  border-radius: 35.0008px;
+}
+
+.cost-button p {
+  position: relative;
+  margin-top: 22px;
+  margin-left: 58px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  transition: 0.5s;
+  /* Лиловый (текст на кнопках) */
+
+  color: #eef7fe;
+}
+
+.cost-button:hover {
+  background: #04d7cd;
+}
+
+.cost-button p:hover {
+  color: #04035f;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    position: relative;
+    margin-top: -3px;
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cost-button {
+    position: relative;
+    margin-left: 35px;
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+  width: 56px;
+  background-image: url("/image/Бургер-меню.png");
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .dropdown-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 765px) {
+  .dropdown-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 1880px) {
+  .dropdown-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 1236px) {
+  .navbar-nav {
+    margin-left: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-button {
+    margin-left: 2.5rem;
+  }
+}
+
+@media (max-width: 1236px) {
+  .form-button {
+    margin-left: 2.5rem;
+  }
+}
+
+#section_1 {
+  height: 792px;
+}
+
+.heroText {
+  margin-top: -16px;
+  width: 100%;
+  max-width: 681px;
+  height: 209px;
+}
+
+.heroText h1 {
+  position: relative;
+  display: flex;
+
+  word-spacing: -2px;
+  letter-spacing: -1px;
+  margin-top: -1rem;
+  margin-left: 1rem;
+
+  /* H1 */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 65px;
+  /* or 102% */
+
+  /* Заголовки */
+
+  color: #292930;
+}
+
+@media (max-width: 765px) {
+  .navbar-collapse {
+    margin-left: -3.5rem;
+    margin-top: -2rem;
+  }
+}
+
+.down-text {
+  margin-right: auto;
+  margin-top: 27px;
+  margin-left: 16px;
+  position: relative;
+  width: 663.06px;
+  height: 51px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Основной текст */
+
+  color: #7d8797;
+}
+
+@media (max-width: 765px) {
+  .down-text {
+    position: relative;
+    margin-top: -60px;
+    margin-left: 21px;
+    width: 324.78px;
+    height: 51px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+    font-feature-settings: "pnum" on, "lnum" on;
+
+    /* Основной текст */
+
+    color: #7d8797;
+  }
+}
+
+@media (max-width: 765px) {
+  .heroText h1 {
+    position: relative;
+    margin-left: 2rem;
+    margin-top: -14rem;
+    width: 325px;
+    height: 194px;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 126% */
+
+    text-align: center;
+
+    /* Заголовки */
+
+    color: #292930;
+  }
+}
+
+form {
+  width: 1306px;
+  height: 851.02px;
+  background: #5360fe;
+  border-radius: 70px;
+  margin-top: 70px;
+}
+
+form h1 {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 108px;
+  margin-top: 70px;
+  word-spacing: -4px;
+  width: 537px;
+  height: 65px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 65px;
+  /* identical to box height, or 102% */
+
+  /* Лиловый (текст на кнопках) */
+
+  color: #eef7fe;
+}
+
+form h3 {
+  position: relative;
+  white-space: nowrap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  margin-left: 111px;
+  word-spacing: 2px;
+  margin-top: -10px;
+  /* identical to box height, or 146% */
+
+  /* Лиловый (текст на кнопках) */
+
+  color: #eef7fe;
+}
+
+input::placeholder {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 22px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Заголовки меньше */
+
+  color: #04035f;
+}
+
+input {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 105px;
+  width: 416px;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 35.0008px;
+  border: none;
+  box-shadow: none;
+}
+.name {
+  position: relative;
+  margin-left: 105px;
+  margin-top: 61px;
+}
+
+.email {
+  position: relative;
+  margin-left: 102px;
+}
+
+.right-container {
+  margin-left: 1213px;
+  /* display: list-item; */
+  position: absolute;
+  margin-top: 0px;
+  height: 68px;
+  left: 15px;
+  width: 651px;
+}
+
+.right-container-img {
+  position: relative;
+  margin-top: -257px;
+  margin-left: -348px;
+}
+
+@media (max-width: 765px) {
+  .navbar-collapse {
+    height: 5000px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    margin-left: -3.5rem;
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 765px) {
+  .right-container-img {
+    display: none;
+  }
+}
+@media (max-width: 765px) {
+  .right-container {
+    /* background-color: aqua; */
+    width: 346px;
+    height: 414px;
+    margin-left: -12.9px;
+    margin-top: 21.12px;
+
+    background-image: url("/image/Иллюстрация\ \(1\).png");
+  }
+}
+
+.btn-submit {
+  position: absolute;
+  width: 209px;
+  margin-left: 423px;
+  margin-top: 526px;
+  background: #04035f;
+}
+
+.btn-submit::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #eef7fe;
+}
+
+.form-section {
+  margin-left: 27px;
+  position: absolute;
+  margin-top: 9416px;
+}
+
+.first_name {
+  position: absolute;
+
+  margin-top: 60px;
+  margin-left: 108px;
+}
+
+.number {
+  position: absolute;
+  margin-top: 63px;
+  margin-left: 552px;
+}
+
+.email {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 108px;
+}
+
+.url {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 552px;
+}
+
+#section-two {
+  position: absolute;
+  width: 1560.08px;
+  height: 692.1px;
+  left: 57.52px;
+  top: 891.39px;
+}
+
+.left-container img {
+  position: absolute;
+  margin-top: -1px;
+  margin-left: -782px;
+}
+.right-container-two {
+  position: absolute;
+  width: 646px;
+  height: 565.54px;
+  margin-left: 919.6px;
+  margin-top: 48.02px;
+}
+
+.right-container-header {
+  word-spacing: 0px;
+  letter-spacing: -1px;
+  width: 646px;
+  height: 65px;
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -4px;
+  white-space: nowrap;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 65px;
+  color: #292930;
+}
+
+.right-container-paragraph {
+  position: absolute;
+  width: 623.95px;
+  height: 150px;
+  margin-left: 0px;
+  margin-top: 123px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Основной текст */
+
+  color: #7d8797;
+}
+
+.right-container-paragraph-two {
+  position: absolute;
+
+  width: 632px;
+  margin-top: 196px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Основной текст */
+
+  color: #7d8797;
+}
+
+.right-container-icon {
+  position: absolute;
+  margin-top: 362px;
+}
+
+.right-container-icon-text {
+  position: absolute;
+  width: 446px;
+  height: 70px;
+  margin-left: 114px;
+  margin-top: 358px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #04035f;
+}
+
+.right-container-icon-two {
+  position: absolute;
+
+  margin-left: 5px;
+  margin-top: 496px;
+}
+
+.right-container-icon-two-text {
+  position: absolute;
+  width: 325px;
+  margin-left: 110px;
+  margin-top: 485px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* or 146% */
+
+  color: #04035f;
+}
+
+#section-three {
+  position: absolute;
+  width: 1611px;
+  height: 781.01px;
+  left: 306.22px;
+  top: 1674.04px;
+}
+
+.section-three-header {
+  position: absolute;
+  margin-left: -980px;
+  /* word-spacing: 125px; */
+  /* width: 1089px; */
+  /* height: 65px; */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 61px;
+  line-height: 65px;
+  color: #292930;
+}
+
+.section-three-header-3 {
+  margin-left: -780px;
+  position: absolute;
+  width: 822.89px;
+  margin-top: 72px;
+  height: 70px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #292930;
+}
+
+.card {
+  position: absolute;
+  width: 415px;
+  height: 635.43px;
+  margin-left: 0px;
+  top: 7px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+}
+
+.img-container {
+  position: absolute;
+  margin-top: 174px;
+  display: flex;
+  justify-content: space-between;
+
+  width: 1610px;
+  height: 667px;
+}
+
+.card:hover {
+  filter: none;
+}
+
+.card-img {
+  margin-left: 46px;
+  margin-top: 44px;
+  position: absolute;
+  width: 320px;
+}
+
+.card-title {
+  position: absolute;
+  width: 263.41px;
+  height: 66.5px;
+  margin-left: 43.41px;
+  margin-top: 462.65px;
+
+  /* H3 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* or 146% */
+
+  /* Заголовки меньше */
+
+  color: #04035f;
+}
+
+.delimiter {
+  position: absolute;
+  width: 1.97px;
+  height: 44.6px;
+  left: 232.27px;
+  top: 548.35px;
+
+  /* Обводка у карточек */
+
+  background: #e0e0e0;
+}
+
+.card-text-first {
+  position: absolute;
+  width: 127.31px;
+  height: 52px;
+  margin-left: 43.58px;
+  margin-top: 542.65px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9aa5b5;
+}
+
+.card-text-second {
+  position: absolute;
+  width: 127.31px;
+  height: 52px;
+  margin-left: 244px;
+  margin-top: 542.65px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: right;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9aa5b5;
+}
+
+.second-card {
+  position: absolute;
+  width: 415px;
+  height: 635.43px;
+  margin-left: 635px;
+  top: 7px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 16px;
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+}
+
+.second-card:hover {
+  filter: none;
+}
+
+.second-card-title {
+  position: absolute;
+
+  width: 263.41px;
+  height: 66.5px;
+  margin-left: 43.41px;
+  margin-top: 462.65px;
+
+  /* H3 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* or 146% */
+
+  /* Заголовки меньше */
+
+  color: #04035f;
+}
+
+.second-card-text-first {
+  position: absolute;
+  width: 127.31px;
+  height: 52px;
+  margin-left: 43.58px;
+  margin-top: 509px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9aa5b5;
+}
+
+.second-card-text-second {
+  position: absolute;
+  width: 127.31px;
+  height: 52px;
+  margin-left: 244px;
+  margin-top: 509px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: right;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9aa5b5;
+}
+
+.second-card-delimiter {
+  position: absolute;
+  width: 1.97px;
+  height: 44.6px;
+  left: 232.27px;
+  top: 548.35px;
+
+  /* Обводка у карточек */
+
+  background: #e0e0e0;
+}
+
+.third-card {
+  position: absolute;
+  width: 415px;
+  height: 635.43px;
+  margin-left: 1194px;
+  top: 7px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 16px;
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+}
+
+.third-card:hover {
+  filter: none;
+}
+
+.third-card-title {
+  position: absolute;
+
+  width: 263.41px;
+  height: 66.5px;
+  margin-left: 43.41px;
+  margin-top: 462.65px;
+
+  /* H3 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* or 146% */
+
+  /* Заголовки меньше */
+
+  color: #04035f;
+}
+
+.third-card-text-first {
+  position: absolute;
+  width: 127.31px;
+  height: 52px;
+  margin-left: 43.58px;
+  margin-top: 509px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9aa5b5;
+}
+
+.third-card-text-second {
+  position: absolute;
+  width: 127.31px;
+  height: 52px;
+  margin-left: 244px;
+  margin-top: 509px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: right;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9aa5b5;
+}
+
+.third-card-delimiter {
+  position: absolute;
+  width: 1.97px;
+  height: 44.6px;
+  left: 232.27px;
+  top: 548.35px;
+
+  /* Обводка у карточек */
+
+  background: #e0e0e0;
+}
+
+#section-fourth {
+  position: absolute;
+  width: 1306px;
+  height: 1056px;
+  left: 307px;
+  top: 2670px;
+}
+
+.section-fourth-card {
+  position: absolute;
+  width: 638px;
+  height: 435px;
+  margin-top: 144px;
+  margin-left: -658px;
+  transition: all 1s;
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+  /* Обводка у карточек */
+
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.section-fourth-card:hover {
+  background: #ffffff;
+  filter: none;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.1);
+}
+
+.section-fourth-header {
+  position: absolute;
+  margin-left: -731px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 65px;
+  color: #292930;
+}
+.section-forth-card-img {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 53px;
+}
+
+.section-fourth-card-title {
+  margin-left: 51px;
+  margin-top: 36px;
+  position: relative;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+
+  /* Заголовки меньше */
+
+  color: #04035f;
+}
+
+.section-fourth-card-text {
+  position: relative;
+  margin-left: 57px;
+  width: 460px;
+  margin-top: 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Основной текст */
+
+  color: #7d8797;
+}
+
+.section-fourth-second-card {
+  position: absolute;
+  width: 638px;
+  height: 435px;
+  margin-top: 145px;
+  margin-left: 670px;
+  transition: all 1s;
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+  /* Обводка у карточек */
+
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.section-fourth-second-card:hover {
+  background: #ffffff;
+  filter: none;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.section-fourth-second-card-title {
+  position: absolute;
+  margin-left: 8.4%;
+  margin-top: 204px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+
+  /* Заголовки на плашках */
+
+  color: #4f4f4f;
+}
+
+.section-fourth-second-card-text {
+  position: absolute;
+  width: 480px;
+  margin-left: 58px;
+  margin-top: 279px;
+
+  /* Main */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Текст на плашках */
+
+  color: #a8a8a8;
+}
+
+.section-forth-second-card-img {
+  position: absolute;
+  width: 60px;
+  margin-top: 88px;
+  margin-left: 79px;
+}
+
+#section-five {
+  position: absolute;
+  width: 1863.22px;
+  height: 722.25px;
+  margin-left: 307px;
+  margin-top: 7710px;
+}
+
+.section-five-header {
+  position: absolute;
+  width: 685px;
+  height: 65px;
+  left: 136px;
+
+  /* H1 */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 65px;
+  /* identical to box height, or 102% */
+
+  /* Заголовки */
+
+  color: #292930;
+}
+
+.section-five-header-three {
+  margin-top: 70px;
+  position: absolute;
+  height: 35px;
+  left: 132px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #292930;
+}
+
+.section-five-card {
+  position: absolute;
+  margin-top: 172px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-five-card img {
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+}
+
+.section-five-card img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+#first-card {
+  position: absolute;
+  margin-left: -848px;
+}
+
+#second-card {
+  position: absolute;
+  margin-left: -181px;
+}
+
+#third-card {
+  position: absolute;
+  margin-left: 488px;
+}
+
+.footer {
+  position: absolute;
+  width: 1869.77px;
+  height: 631.82px;
+  left: -320.28px;
+  top: 5767.63px;
+}
+
+.footer-text {
+  position: absolute;
+  width: 634.23px;
+  height: 631.82px;
+  left: 1236.27px;
+  /* top: 5767.63px; */
+}
+
+.footer-header {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 50px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 65px;
+  /* identical to box height, or 102% */
+
+  /* Заголовки */
+
+  color: #292930;
+}
+
+.telefon {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 58px;
+}
+
+.telefon-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height, or 146% */
+
+  color: #22215b;
+}
+
+.telefon-number {
+  position: absolute;
+  width: 180px;
+  margin-top: -6px;
+  margin-left: 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Основной текст */
+
+  color: #7d8797;
+}
+
+.footer-email {
+  position: absolute;
+  margin-top: 147px;
+  margin-left: 394px;
+}
+
+.email-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height, or 146% */
+
+  color: #22215b;
+}
+
+.email-adress {
+  position: absolute;
+  width: 300px;
+  margin-left: 0px;
+  margin-top: -4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Основной текст */
+
+  color: #7d8797;
+}
+
+.footer-adress {
+  margin-left: 59px;
+  position: absolute;
+  margin-top: 283px;
+}
+
+.footer-adress-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height, or 146% */
+
+  color: #22215b;
+}
+
+.footer-adress-text {
+  position: absolute;
+  margin-top: -7px;
+  width: 226px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 128% */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Основной текст */
+
+  color: #7d8797;
+}
